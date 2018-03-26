@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html, body{
 	margin:0;
 	font-size: 100%;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background: #fff;
 }
 body a {
@@ -30,8 +30,8 @@ input[type="button"],input[type="submit"]{
 }
 h2,h3,h4,h5,h6{
 	margin:0;
-	font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }	
 p{
 	margin:0;
@@ -50,9 +50,23 @@ label{
 .header {
     padding: 2em 2.5em;
 }
+
+#nav{
+	background: #2196F3;
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	z-index: 3000;
+
+}
+
+#mainTitle{
+	color: #fff;
+}
+
 .banner {
     background: url(../images/banner.jpg) no-repeat 0px 0px;
-    background: #0086fe;
+    background: #fff;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -63,38 +77,18 @@ label{
 }
 .banner-image-w3layouts img {
     position: absolute;
-    bottom: 0;
+	bottom: 0;
+	
     right: 6%;
-    width: 425px;
+    width: 600px;
 }
-.w3_agile_logo{
-	float:left;
-}
-.w3_agile_logo h1 a {
-    font-size: 1.3em;
-    color: #fff;
-    text-decoration: none;
-    text-transform: capitalize;
-    letter-spacing: 3px;
-    font-family: 'Josefin Sans', sans-serif;
-}
-.w3_agile_logo h1 a span {
-    display: block;
-    font-size: .3em;
-    letter-spacing: 13px;
-    text-transform: capitalize;
-    background: rgba(255, 255, 255, 0.22);
-    /* width: 89%; */
-    padding: 5px 0px 5px 10px;
-    color: rgb(33, 99, 158);
-    font-weight: 600;
-}
+
 .agile_banner_info {
     margin: 11em 0 0em 14em;
     text-align: left;
 }
 p.banner-p-w3ls {
-    color: #fff;
+    color: #2196F3;
     font-size: 18px;
     letter-spacing: 3px;
     font-weight: 300;
@@ -110,7 +104,7 @@ p.banner-p-w3ls {
 }
 .w3_agileits_social_media ul li a {
     display: block;
-    color: #fff;
+    color: #2196F3;
     text-decoration: none;
     width: 35px;
     height: 35px;
@@ -120,7 +114,7 @@ p.banner-p-w3ls {
 	box-shadow:1px 1px 2px #3b5998;
 }
 .w3_agileits_social_media ul li a:hover  i{
-    color:#ecb731;
+    color:rgb(255, 193, 7);
 }
 .w3_agileits_social_media {
     text-align: center;
@@ -145,7 +139,7 @@ p.banner-p-w3ls {
     cursor: pointer;
     width: 40px;
     height: 40px;
-    background: rgba(0, 0, 0, 0.04);
+    background: #2196F3;
 }
 
 .mobile-nav-button .mobile-nav-button__line {
@@ -192,7 +186,7 @@ p.banner-p-w3ls {
     width: 20%;
     right: -20%;
     height: 100%;
-     background: rgba(6, 17, 27, 0.54);
+     background: rgba(63, 133, 199, 0.54);
     position: fixed;
     z-index: 9998;
     transition: 0.6s ease;
@@ -244,7 +238,7 @@ ul.dropdown-menu.agile_short_dropdown > li > a:hover{
 }
 .mobile-menu ul li a:after {
 	content: '';
-	background: #ecb731;
+	background: rgb(255, 193, 7);
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -295,18 +289,18 @@ li.dropdown.act a.w3_icons_act {
 
 #typed {
     font-size: 2em;
-    color: #ecb731;
+    color: rgb(255, 193, 7);
     text-transform: capitalize;
     line-height: 1.5em;
     letter-spacing: 7px;
     font-weight: 300;
-    text-shadow: 1px 1px 2px #000;
+    text-shadow: 1px 1px 2px #fff;
     margin: 0.5em 0 0.5em;
     display: inline-block;
 }
 #typed i {
     font-style: normal;
-    color: #ffffff;
+    color: #2196F3;
 }
 .typed-cursor {
     opacity: 1;
@@ -355,16 +349,16 @@ li.dropdown.act a.w3_icons_act {
     right: 0;
 }
 .search-agileits input[type="submit"]:hover {
-    color:#ecb731;
+    color:rgb(255, 193, 7);
 }
 .agile_banner_info h2 {
     font-size: 2.5em;
     letter-spacing: 2px;
-    color: #ecb731;
-	text-shadow: 1px 1px 2px #000;
+    color: rgb(255, 193, 7);
+	
 }
 .agile_banner_info h2 span{
-    color: #171717;
+	color: #2196F3;
 }
 /*--//search bar--*/
 /*-- //Banner-Slider --*/
@@ -380,7 +374,7 @@ li.dropdown.act a.w3_icons_act {
     text-transform: uppercase;
 }
 .modal-content h5 {
-    color: #ecb731;
+    color: rgb(255, 193, 7);
     padding-top: 15px;
     font-size: 21px;
 }
@@ -402,7 +396,7 @@ li.dropdown.act a.w3_icons_act {
 	color:#fff!important;
 }
 .about-left-w3ls {
-    background: url(../images/about.jpg)no-repeat 0px 0px;
+    background: url(../images/resume_imran.jpg)no-repeat 0px 0px;
     background-size: cover;
     padding: 0;
     min-height: 794px;
@@ -444,7 +438,8 @@ li.dropdown.act a.w3_icons_act {
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.69);
 }
 .person-info-agileits-w3layouts {
-    padding: 5em;
+	padding: 5em;
+	background: #2196F3;
 }
 .person-info-agileits-w3layouts ul {
     margin-top: 3.75em;
@@ -453,7 +448,7 @@ li.dropdown.act a.w3_icons_act {
     list-style: none;
     display: block;
     margin-bottom: 25px;
-    color: #8a8a8a;
+    color: #fff;
     font-size: 16px;
     letter-spacing: 0.5px;
 }
@@ -463,38 +458,38 @@ li.dropdown.act a.w3_icons_act {
 .person-info-agileits-w3layouts ul li span {
     width: 141px;
     display: inline-block;
-    color: #4a4a4a;
+    color: #ffc107;
     font-weight: 600;
 }
 .person-info-agileits-w3layouts ul li a{
-    color: #8a8a8a;
+    color: #fff;
 }
 .person-info-agileits-w3layouts ul li a:hover{
-    color: #ecb731;
+    color: rgb(255, 193, 7);
 }
 .person-info-agileits-w3layouts ul li a.botton-w3ls {
     display: inline-block;
-    color: #fff;
+    color: #2196F3;
     padding: 10px 20px;
     font-size: 15px;
-    background: #0086fe;
+    background: #fff;
     margin: 10px 10px 0 0px;
     text-decoration: none;
     text-transform: capitalize;
 	letter-spacing: .5px;
 }
 .person-info-agileits-w3layouts ul li a.botton-w3ls:hover {
-    background: #ecb731;
+    background: rgb(255, 193, 7);
     color: #fff;
     text-decoration: none;
 	outline:none;
 }
 .person-info-agileits-w3layouts p span{
-    color: #ecb731;
+    color: rgb(255, 193, 7);
     font-size: 19px;
 }
 .person-info-agileits-w3layouts p{
-    color: #303030;
+    color: #ffffff;
     font-size: 16px;
     line-height: 30px;
     width: 100%;
@@ -528,14 +523,14 @@ li.dropdown.act a.w3_icons_act {
 .work-left-agileits-w3layouts h6 {
     font-size: 17px;
     letter-spacing: 1px;
-    color: #303030;
+    color: #fff;
 }
 .work-left-agileits-w3layouts h6 i{
-    color: #ecb731;
+    color: rgb(255, 193, 7);
 	padding-right:8px;
 }
 .work-right-w3-agileits h3 {
-    color: #ecb731;
+    color: rgb(255, 193, 7);
     font-size: 25px;
     text-transform: capitalize;
     letter-spacing: 1.5px;
@@ -555,7 +550,7 @@ li.dropdown.act a.w3_icons_act {
 /*-- //works --*/
 /*-- services --*/
 .services{
-	background:#171717;
+	background:#ffc107;
 }
 .services h3{
 	color:#fff!important;
@@ -567,7 +562,7 @@ li.dropdown.act a.w3_icons_act {
 }
 .w3_head {
     text-align: center;
-    color: #303030;
+    color: #fff;
     margin: 0 0 1em;
     font-size: 2.5em;
     letter-spacing: 2px;
@@ -579,7 +574,7 @@ h3.w3_head.w3_head1 span {
     letter-spacing: 4px;
     margin-top: 5px;
     text-transform: uppercase;
-    color: #ecb731;
+    color: rgb(255, 193, 7);
 }
 .nunc{
 	position:relative;
@@ -655,13 +650,15 @@ h3.w3_head.w3_head1 span {
 	z-index: 1;
     width: 100%;
     overflow: hidden;
-    position: relative;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .agileits_service_grid_btm_left1:before {
     bottom: 0;
     right: 0;
     border-bottom: 2px solid #0086fe;
-    border-right: 2px solid #0086fe;
+	border-right: 2px solid #0086fe;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .agileits_service_grid_btm_left1:after, .agileits_service_grid_btm_left1:before {
     content: '';
@@ -689,7 +686,7 @@ h3.w3_head.w3_head1 span {
 }
 .agileits_service_grid_btm_left2 h5 {
     margin: 0em 0 .5em;
-    color: #ecb731;
+    color: rgb(255, 193, 7);
     font-size: 1.5em;
     letter-spacing: 1px;
     text-transform: capitalize;
@@ -697,7 +694,8 @@ h3.w3_head.w3_head1 span {
     -webkit-transition: .5s all;
     -o-transition: .5s all;
     -moz-transition: .5s all;
-    -ms-transition: .5s all;
+	-ms-transition: .5s all;
+	
 }
 .agileits_service_grid_btm_left2 p {
     color: #999;
@@ -709,7 +707,8 @@ h3.w3_head.w3_head1 span {
     border: none;
     border-bottom: 2px solid #000000;
     background: #fff;
-    text-align: center;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
 }
 .agileits_service_grid_btm_left1:hover {
     cursor: default;
@@ -833,7 +832,7 @@ section.mid-w3layouts h3 {
     font-weight: 600;
 }
 section.mid-w3layouts h3 span {
-    color: #ecb731;
+    color: rgb(255, 193, 7);
 }
 section.mid-w3layouts a {
     color: #fff;
@@ -846,7 +845,7 @@ section.mid-w3layouts a {
     letter-spacing: .5px;
 }
 section.mid-w3layouts a:hover {
-    background: #ecb731;
+    background: rgb(255, 193, 7);
 }
 /*-- mid --*/ 
 /*-- skills --*/ 
@@ -873,7 +872,7 @@ section.mid-w3layouts a:hover {
 }
 .bar-grids h4 span.glyphicon {
     margin-right: 0.8em;
-    color: #ecb731;
+    color: rgb(255, 193, 7);
 }
 .progress {
     height: 20px;
@@ -1177,7 +1176,7 @@ a.agilebtn {
 }
 .contact-agileits-w3layouts {
     padding: 35px 60px;
-    background: #ecb731;
+    background: rgb(255, 193, 7);
 }
 .contact-map-right {
     padding: 0;
@@ -1277,7 +1276,7 @@ a.agilebtn {
 }
 .w3_agileits_social_media-footer ul li a:hover {
     box-shadow: 1px 1px 2px rgb(58, 58, 58)!important;
-    color: #ecb731!important;
+    color: rgb(255, 193, 7)!important;
 }
 .contact-mid ul li {
     list-style: none;
@@ -1309,7 +1308,7 @@ a.agilebtn {
     font-weight: 300;
 }
 .callbacks_container ul li  a{
-    color: #ecb731;
+    color: rgb(255, 193, 7);
 	text-decoration:none;
 }
 .callbacks_container ul li  a:hover{
@@ -1577,24 +1576,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 
 /*-- Slider part Ends Here --*/
 /*--//Contact --*/
-.copy-w3-agile {
-    background: #000;
-    padding: 1em 2em;
-    text-align: center;
-}
-.copy-w3-agile p {
-    color: #fff;
-    font-size: 14px;
-    letter-spacing: 1.5px;
-}
-.copy-w3-agile p a {
-	text-decoration:none;
-    color: #ecb731;
-}
-.copy-w3-agile p a:hover {
-	text-decoration:none;
-    color: #fff;
-}
+
 /*--//footer--*/
 /*-- to-top --*/
 #toTop {
@@ -1681,9 +1663,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 		margin: 0 0 0.9em;
 		font-size: 2.3em;
 	}
-	.contact-info {
-		padding: 3em 0 2.5em;
-	}
+
 	.mobile-menu {
 		width: 24%;
 		right:-24%;
@@ -1742,6 +1722,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 	.w3_agileits_social_media ul li {
 		margin-bottom: 1.3em;
+		
 	}
 	.w3_agileits_social_media {
 		top: 12.5em;
@@ -1866,7 +1847,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 	.about-left-w3ls {
 		min-height: 415px;
-		background: url(../images/about.jpg)no-repeat 0px -212px;
+		background: url(../images/resume_imran.jpg)no-repeat 0px -212px;
 		background-size: cover;
 		z-index: 1;
 	}
@@ -1957,7 +1938,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 		right: 4%;
 	}
 	.about-left-w3ls {
-		background: url(../images/about.jpg)no-repeat 0px -183px;
+		background: url(../images/resume_imran.jpg)no-repeat 0px -183px;
 		background-size: cover;
 	}
 	.about-left-w3ls h5 {
@@ -2088,7 +2069,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 	.about-left-w3ls {
 		min-height: 340px;
-		background: url(../images/about.jpg)no-repeat 0px -159px;
+		background: url(../images/resume_imran.jpg)no-repeat 0px -159px;
 		background-size: cover;
 	}
 	.gallery_wthree, .work, .services, .skills-agileinfo, .mid-w3layouts {
@@ -2286,7 +2267,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 	.about-left-w3ls {
 		min-height: 270px;
-		background: url(../images/about.jpg)no-repeat 0px -112px;
+		background: url(../images/resume_imran.jpg)no-repeat 0px -112px;
 		background-size: cover;
 	}
 	.about-left-w3ls h5 {
@@ -2374,7 +2355,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 	.about-left-w3ls {
 		min-height: 239px;
-		background: url(../images/about.jpg)no-repeat 0px -88px;
+		background: url(../images/resume_imran.jpg)no-repeat 0px -88px;
 		background-size: cover;
 	}
 	.grid-c.grid_w3l {
@@ -2441,7 +2422,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 		letter-spacing: 9px;
 	}
 	.about-left-w3ls {
-		background: url(../images/about.jpg)no-repeat 0px -77px;
+		background: url(../images/resume_imran.jpg)no-repeat 0px -77px;
 		background-size: cover;
 	}
 	.mobile-menu {
