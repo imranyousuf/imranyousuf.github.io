@@ -433,7 +433,7 @@ li.dropdown.act a.w3_icons_act {
     position: absolute;
     top: 3.5em;
     right: -0.5em;
-    color: #0086fe;
+    color: #2196F3;
     font-size: 0.5em!important;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.69);
 }
@@ -497,7 +497,7 @@ li.dropdown.act a.w3_icons_act {
 /*-- //about --*/
 /*-- works --*/
 .work h5,.contact-grids h5 {
-    color: #0086fe;
+    color: #2196F3;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -625,7 +625,7 @@ h3.w3_head.w3_head1 span {
 }
 .agileits_services_grid:hover {
     background: #ecfbff;
-    border-left: 3px solid #0086fe;
+    border-left: 3px solid #2196F3;
     border-right: none;
 	transition: .5s ease-in;
     -webkit-transition: .5s ease-in;
@@ -634,7 +634,7 @@ h3.w3_head.w3_head1 span {
     -ms-transition: .5s ease-in;
 }
 .agileits_services_grid:hover h5 {
-    color: #0086fe;
+    color: #2196F3;
 	transition: .5s ease-in;
     -webkit-transition: .5s ease-in;
     -moz-transition: .5s ease-in;
@@ -656,8 +656,8 @@ h3.w3_head.w3_head1 span {
 .agileits_service_grid_btm_left1:before {
     bottom: 0;
     right: 0;
-    border-bottom: 2px solid #0086fe;
-	border-right: 2px solid #0086fe;
+    border-bottom: 2px solid #2196F3;
+	border-right: 2px solid #2196F3;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .agileits_service_grid_btm_left1:after, .agileits_service_grid_btm_left1:before {
@@ -676,8 +676,8 @@ h3.w3_head.w3_head1 span {
 .agileits_service_grid_btm_left1:after {
     top: 0;
     left: 0;
-    border-top: 2px solid #0086fe;
-    border-left: 2px solid #0086fe;
+    border-top: 2px solid #2196F3;
+    border-left: 2px solid #2196F3;
 }
 .agileits_service_grid_btm_left1:hover:after, .agileits_service_grid_btm_left1:hover:before {
     width: 100%;
@@ -714,7 +714,7 @@ h3.w3_head.w3_head1 span {
     cursor: default;
 }
 .agileits_service_grid_btm_left1:hover .agileits_service_grid_btm_left2 i {
-   color: #0086fe;
+   color: #2196F3;
    border-color:#252525;
 	transition: .5s all;
     -webkit-transition: .5s all;
@@ -726,7 +726,7 @@ h3.w3_head.w3_head1 span {
     display: inline-block;
     width: 60px;
     height: 60px;
-    border: 2px solid #0086fe;
+    border: 2px solid #2196F3;
     line-height: 57px;
     border-radius: 3px;
     font-size: 25px;
@@ -825,7 +825,7 @@ section.mid-w3layouts h6 {
     letter-spacing: 2px;
 }
 section.mid-w3layouts h3 {
-    color: #0086fe;
+    color: #2196F3;
     font-size: 2.5em;
     margin: 0.5em 0 1em;
     letter-spacing: 2px;
@@ -888,7 +888,7 @@ section.mid-w3layouts a:hover {
     margin-bottom: 0!important;
 }
 .progress-bar { 
-    background-color: #0086fe;
+    background-color: #2196F3;
 }
 .bar-grids h6 {
     font-size: 0.9em;
@@ -1297,7 +1297,7 @@ a.agilebtn {
 	text-decoration:none;
 }
 .contact-mid ul li a:hover{
-    color: #0086fe;
+    color: #2196F3;
 	text-decoration:none;
 }
 .callbacks_container ul li {
@@ -1312,7 +1312,7 @@ a.agilebtn {
 	text-decoration:none;
 }
 .callbacks_container ul li  a:hover{
-    color: #0086fe;
+    color: #2196F3;
 	text-decoration:none;
 }
 .callbacks_container ul li span {
@@ -1321,7 +1321,7 @@ a.agilebtn {
     font-size: 13px;
 }
 .callbacks_container ul li  i{
-    color: #0086fe;
+    color: #2196F3;
 	padding-right:5px;
 	display:inline-block;
 }
