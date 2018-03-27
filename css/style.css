@@ -134,6 +134,11 @@ p.banner-p-w3ls {
     text-align: left;
     line-height: 30px;
 }
+
+p.banner-p-w3ls span{
+	color: rgb(255, 193, 7);
+	font-weight: 400;
+}
 .w3_agileits_social_media ul li {
     margin: 0 .8em;
     list-style: none;
