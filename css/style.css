@@ -89,6 +89,18 @@ label{
 	margin-right: 5em; 
 }
 
+#nav-title{
+	float: left;
+	padding: 10px 10px;
+    font-size: 25px;
+	margin: 10px 0px 10px 0; 
+	color:rgb(255, 193, 7);
+}
+
+#nav-title span{
+	color:#fff;
+}
+
 .banner {
     background: url(../images/banner.jpg) no-repeat 0px 0px;
     background: #fff;
