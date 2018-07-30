@@ -30,7 +30,12 @@
           return <ForceGraph3D
             graphData={data}
             nodeLabel="id"
-            nodeColor="color"
+            nodeThreeObject={node => {
+              const sprite = new SpriteText(node.id);
+              sprite.color = node.color;
+              sprite.textHeight = 2;
+              return sprite;
+            }}
             onNodeClick={this._handleClick}
             linkLabel="desc"
             linkColor="linkColor"
