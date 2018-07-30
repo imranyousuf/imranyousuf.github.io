@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {"id": "Imran", "group": 2, "color":"green"},
+    {"id": "Yem", "group": 2, "color":"green"},
+    {"id": "Ray", "group": 2, "color":"green"},
+    {"id": "Sarvana", "group": 2, "color":"green"},
+    {"id": "Ramya", "group": 2, "color":"green"},
+    {"id": "Satya", "group": 2, "color":"green"},
+    {"id": "Pooja", "group": 2, "color":"green"},
+    {"id": "Foo Figher", "group": 3, "color":"red"},
+    {"id": "Foo Figher Austin,TX", "group": 7, "color":"orange"}
+  ],
+  "links": [
+    {"source": "Satya", "target": "Foo Figher", "value": 30, "desc":"likes","linkColor":"white","curve":0},
+    {"source": "Satya", "target": "Ramya", "value": 0.05, "desc":"0.5mil","linkColor":"orange","curve":0},
+    {"source": "Ramya", "target": "Pooja", "value": 0.01, "desc":"1mil","linkColor":"green","curve":0},
+    {"source": "Ramya", "target": "Foo Figher", "value": 10, "desc":"likes","linkColor":"red","curve":0},
+    {"source": "Ramya", "target": "Sarvana", "value": 2, "desc":"going","linkColor":"purple","curve":0},
+    {"source": "Sarvana", "target": "Foo Figher", "value": 1, "desc":"likes","linkColor":"pink","curve":0},
+    {"source": "Sarvana", "target": "Ray", "value": 30, "desc":"300mil","linkColor":"white","curve":0},
+    {"source": "Sarvana", "target": "Yem", "value": 30.5 , "desc":"305mil","linkColor":"pink","curve":0},
+    {"source": "Yem", "target": "Ray", "value": .01 , "desc":"1 mil","linkColor":"yellow","curve":0},
+    {"source": "Yem", "target": "Imran", "value": .02, "desc":"2mil","linkColor":"white","curve":0},
+    {"source": "Yem", "target": "Foo Figher", "value": 10, "desc":"likes","linkColor":"white","curve":0},
+    {"source": "Ray", "target": "Foo Figher", "value": 10 , "desc":"likes","linkColor":"red","curve":0},
+    {"source": "Ray", "target": "Imran", "value": .06, "desc":"6mil","linkColor":"white","curve":0.2},
+    {"source": "Ray", "target": "Pooja", "value": 30.2, "desc":"302mil","linkColor":"purple","curve":0},
+    {"source": "Pooja", "target": "Imran", "value": 30.2 , "desc":"302mil","linkColor":"pink","curve":0.2},
+    {"source": "Pooja", "target": "Foo Figher Austin,TX", "value": 10 , "desc":"interested","linkColor":"yellow","curve":0.8}
+  ]
+}

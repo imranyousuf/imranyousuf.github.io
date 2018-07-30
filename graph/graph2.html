@@ -1,0 +1,59 @@
+<head>
+  <style> body { margin: 0; } </style>
+
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone"></script>
+
+  <script src="https://unpkg.com/react-force-graph"></script>
+  <script src="https://unpkg.com/three"></script>
+  <script src="https://unpkg.com/three-spritetext"></script>
+  <!-- <script src="../../dist/react-force-graph.js"></script> -->
+</head>
+
+<body>
+  <div id="graph"></div>
+
+  <script type="text/jsx">
+    fetch('https://api.myjson.com/bins/iible').then(res => res.json()).then(data => {
+      const { ForceGraph3D } = ForceGraph;
+
+      class FocusGraph extends React.Component {
+
+        _handleClick = node => {
+          // Aim at node from outside it
+          const distance = 40;
+          const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+        };
+
+        render() {
+          return <ForceGraph3D
+            graphData={data}
+            nodeLabel="id"
+            nodeThreeObject={node => {
+              const sprite = new SpriteText(node.id);
+              sprite.color = node.color;
+              sprite.textHeight = 2;
+              return sprite;
+            }}
+            onNodeClick={this._handleClick}
+            linkLabel="desc"
+            linkColor="linkColor"
+            linkDirectionalParticles="value"
+            linkCurvature="curve"
+            linkCurveRotation="value"
+            linkDirectionalParticles={2}
+            linkDirectionalParticleSpeed={d => d.value * 0.01}
+            linkOpacity={1}
+            
+          />;
+        }
+      }
+
+      ReactDOM.render(
+        <FocusGraph />,
+        document.getElementById('graph')
+      );
+    });
+  </script>
+</body>
