@@ -1,0 +1,42 @@
+.imod_RichPanelMain2 {
+  background-color: #fff;
+}
+.imod_RichPanelHeader2 {
+  overflow: hidden;
+  padding: 0 0 0 4px;
+  margin: 0;
+  height: 26px;
+}
+.imod_RichPanelTitle2 {
+  float: left;
+  overflow: hidden;
+  font: bold 10px Verdana, Arial, Sans-Serif;
+  color: white;
+  margin-top: 5px;
+}
+.imod_RichPanelToolbar2 {
+  margin: 5px 3px 0 3px;
+  padding-right: 0;
+  cursor: pointer;
+  float: right;
+  height: 1.8em;
+  line-height: 1.8em;
+  overflow: hidden;
+}
+.imod_RichPanelDropPanel2 {
+  padding: 4px;
+  border-top: solid 1px #000;
+  border-bottom: solid 1px #000;
+  font-weight: bold;
+}
+.imod_RichPanelContent2 {
+  /*font: normal 11px Verdana, Arial, Sans-Serif;*/
+}
+.imod_RichPanelFooter2 {
+  font: normal 10px Arial, Verdana, Sans-Serif !important;
+  cursor: default;
+  color: #a5a5a5;
+  padding-top: 3px;
+  padding-left: 3px;
+  height: 15px;
+}

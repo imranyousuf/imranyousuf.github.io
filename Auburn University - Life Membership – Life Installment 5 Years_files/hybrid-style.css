@@ -1,0 +1,191 @@
+@import url(/s/resources/css/appstyles.css);
+@import url(//fonts.googleapis.com/css?family=Arvo:400,700);
+
+/* General Styles
+---------------------------------------------*/
+form#MainForm { margin: 0; }
+pre {  white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; }
+
+.hero { max-width: 100%!important; width: 100%!important; height: auto!important; }
+
+/* Heading Styles (H1-H6)
+---------------------------------------------*/
+h1,
+h2,
+h3 {
+	font-family:'PT Serif',serif;
+	margin: 15px 0px;
+}
+h4,
+h5 {
+	font-family: 'PT Sans Caption', sans-serif;
+	margin: 15px 0px;
+}
+
+.h1 { 
+	font-size: 1.625em;
+}
+.h2 { 
+	font-size: 1.375em;
+}
+.h3 { 
+	font-size: 1.125em;
+}
+.h4 { 
+	font-size: 1em;
+}
+.h5 { 
+	font-size: 0.875em;
+}
+
+
+
+/* Helpful Classes
+---------------------------------------------*/
+.group:after, .imod-guest-list-details li:after {content: "";clear: both;display: table;}
+
+
+/* HEAD ELEMENTS
+---------------------------------------------*/
+.rt-block.powersword { padding: 0; }
+.btnNav { display: none; color: #03244d; font-size: 14px; font-weight: bold; padding: 13px 0px; cursor: pointer; text-align: center; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3); text-transform: uppercase; }
+
+.form-inline button, .form-inline label { display: none; }
+.form-inline input { width: 150px; height: 20px; font-size: 10px; margin-top: 0; padding-right: 14px; padding-left: 14px; margin-bottom: 0; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+
+.header-flat {background: #0e2240; margin-top: 30px;}
+.logo-block {text-align:center;}
+.logo-block .rt-logo-container {width: auto; height: auto;margin-top:5px; margin-bottom: 5px; display:inline-block;}
+#rt-logo {background-image: url(images/logo.png) !important;}
+.search_aualum {margin-top:0; padding-top:0;}
+
+
+/* MAIN TOP HORIZONTAL NAV
+---------------------------------------------*/
+
+
+/* LEFT COLUMN
+---------------------------------------------*/
+
+
+/* BODY ELEMENTS
+---------------------------------------------*/
+
+
+/* RIGHT COLUMN
+---------------------------------------------*/
+
+
+/* Footer Elements 
+---------------------------------------------*/
+#rt-footer-surround {background: none !important;}
+#rt-footer-surround { margin-top: 0; padding-bottom:0; text-align:center;}
+#rt-copyright {border-bottom: 3px solid #ef7521;}
+#rt-copyright .custompogosticks {float:none;}
+footer h2.title { line-height: normal; }
+	/* Secondary footer */
+	.footerInfo {font-weight:bold; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.5em; color: #0c223f;}
+	.footerInfo a {color: #0c223f; text-decoration: none;}
+	.footerInfo .orange {color: #ef7521;}
+
+
+/* Fix Application Defaults
+---------------------------------------------*/
+.idbmsBreadcrumbSeparator {color:#000000!important;}
+.expand img {background-color: #000000!important; min-width: 16px;}
+.expand {background-color: #000000!important;}
+.Error,.error {width:auto!important}
+
+img[src="/images/icons/v2/common/brick_edit.gif"],
+img[src="/images/icons/v2/common/delete.gif"],
+img[src="/images/icons/v2/common/arrow_out.gif"],
+img[src="/images/e.gif"],
+img[src="/images/spacer.gif"],
+img[src="/images/icons/v2/bomb.png"] {border:0!important; padding:0!important; margin:0!important; float:none!important; width:16px!important; height:16px!important}
+#divLoginButton input, input.button {width:auto!important;}
+table.DataGrid {width:100%;}
+table.DataGrid td, table.DataGrid th {padding:5px;}
+table.DataGrid th {font-weight:bold;}
+
+.mastWrap img[src="/images/spacer.gif"] {display:none;}
+
+#ContentMiddle .tabstrip ul li {padding:0; background: none;}
+#ContentMiddle .TabsPlacement ul li {padding:0; background: none;}
+#cid_283_pnlHelp  tr {
+display: block!important;
+}
+
+.imod-guest-list-details li {margin:10px 0!important;}
+.imod-guest-list-details ul li div:first-child {margin-right:15px!important;}
+
+.social-icons-top {float:left; padding:0; margin:10px 0 0;}
+
+
+	/* Two Column Template
+	************************/
+	.twoColumn .logo-block {text-align: left;}
+
+
+/*
+---------------------------------------------
+---------------------------------------------
+   MEDIA QUERIES
+---------------------------------------------
+---------------------------------------------
+*/
+
+/* =============================================================================
+   Desktop Only
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+}
+
+/* =============================================================================
+   Tablet Only
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+/* =============================================================================
+   Tablet And Under
+   ========================================================================== */
+@media (max-width: 959px) {
+	textarea {width:100%;}
+}
+
+/* =============================================================================
+   Mobile Only
+   ========================================================================== */
+@media (max-width: 767px) {
+   div.imod-profile-left {padding:0 20px;}
+   div#divProfileMain .imod-profile-wrapper {width:100%!important;}
+	.imod-guest-list-details ul li div:first-child {margin-right:0!important;float:none!important;}
+	input[type="file"] {width: 100%;}
+	input[type="datetime-local"] {max-width:240px;display:block;}
+	
+	.header-flat .rt-grid-6.rt-omega { display: none; }
+	.logo-block { margin: 0; padding: 20px 25px; }
+	#rt-showcase .rt-block { margin: -30px 0 25px!important; }
+	.logo-block .rt-logo-container {margin-top:0; display:inline;}
+	
+	.btnNav { display: block; }
+	ul.level0 { display: none; float: none; padding-bottom: 10px; }
+	ul.level0 li.mega { float: none; }
+	
+	footer h2.title { text-align: center; font-size: 1.5em; display: block; }
+	footer .customfeet div { text-align: center!important; }
+	footer #rt-copyright .custompogosticks { float: none; }
+	footer #rt-copyright .custompogosticks p { text-align: center!important; }
+	
+	.rt-block {padding-left:0;padding-right:0;}
+}
+
+@media only screen and (max-width: 480px) {
+	.logo-block { padding: 20px 10px; }
+}
+
+/* =============================================================================
+   Retina Display Only
+   ========================================================================== */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+}
